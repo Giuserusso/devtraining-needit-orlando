@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="FilmVideogioco" max_length="40" name="x_58872_needit_filmvideogioco" sizeclass="0" type="collection">
+    <element label="FilmVideogioco" max_length="40" name="x_58872_needit_filmvideogioco" sizeclass="7" type="collection">
         <element label="Costo" max_length="40" name="costo" type="string"/>
         <element label="Disponibile" max_length="40" name="disponibile" type="string"/>
         <element label="Genere" max_length="40" name="genere" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Tipo" max_length="40" name="tipo" type="string"/>
         <element label="Titolo" max_length="40" name="titolo" type="string"/>
     </element>
 </database>

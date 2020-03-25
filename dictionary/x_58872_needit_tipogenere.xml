@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="TipoGenere" max_length="40" name="x_58872_needit_tipogenere" type="collection">
+        <element label="Genere" max_length="40" name="genere" type="string"/>
+        <element label="Tipo" max_length="40" name="tipo" type="string"/>
+    </element>
+</database>
